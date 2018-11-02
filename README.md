@@ -3,7 +3,7 @@
 
 ## Introduction
 
-In this lesson, we shall look at the relationship between clients and server computers that you may find present in almost every networked environment. The Client/server architecture offers a an unlimited number of communication possibilities  and it is is what makes the Internet **possible**. We shall cover a basic understanding of the client/server model which will be later used for API calling. It is beyond the scope of this lesson to cover an exhaustive resource for client/server architecture.We shall, instead, look at the primary principals of communication
+In this lesson, we shall look at the relationship between clients and server computers that you may find present The Client/server architecture offers a an unlimited number of communication possibilities  and it is is what makes the Internet **possible**. We shall cover a basic understanding of the client/server model which will be later used for API calling. It is beyond the scope of this lesson to cover an exhaustive resource for client/server architecture.We shall, instead, look at the primary principals of communication
 
 ## Obectives
 You will be able to:
