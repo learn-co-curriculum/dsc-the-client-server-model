@@ -19,7 +19,7 @@ Although Client/server model can be used by programs within an individual comput
 A typical multi-layered client server architecture that most of us use in everyday life can be shown as below. 
 
 
-<img src="images/cs3.jpg" width="400">
+<img src="images/new_cs3.png" width="400">
 
 ### What is a Client?
 A client is a computer hardware device or software that requests a service made available by a server. The server is often (but not always) located on a separate physical computer.
@@ -37,7 +37,7 @@ Let's see what a basic web application looks like that takes in a request from a
 
 A Web application (Web app) is an application program that is stored on a remote server and delivered over the Internet through a browser interface. Web services are Web apps by definition and many, although not all, websites contain Web apps. Any website component that performs some function for the user qualifies as a Web app. Google’s search engine is a web app, yet its root concept is hardly different from a phone directory that enables you to search names or numbers. 
 
-<img src="images/apps.jpg" width="400">
+<img src="images/new_apps.png" width="400">
 
 Most web apps actually use a browser interface for interaction, i.e. end users request access and request information/service from these applications through a modern web browser interface. There are hundreds of ways to build and configure a Web application but most of them follow the same basic structure: a web client, a web server, and a database.
 
@@ -50,21 +50,21 @@ The client is what the end user interacts with. "Client-side" code is actually r
 3.  Implementing a mechanism for responding to user interactions (clicking buttons, entering text, etc.)
 
 Most of these tasks are managed by HTML/CSS/JavaScript like technologies to structure the information, style of the page and provide interactive objects for navigation and focus. 
-<img src="images/cs5.jpg" width="400">
+<img src="images/new_clientserver.png" width="400">
 
 ### The Web Server
 
 A web server in a Web application is what listens to requests coming in from the clients. When you set up an HTTP (HyperText Transfer Protocol - Language of the internet) server, we set it up to listen to a port number. A port number is always associated with the IP address of a computer. You can think of ports as separate channels on a computer that we can use to perform different tasks: one port could be surfing www.facebook.com while another fetches your email. This is possible because each of the applications (the Web browser and the email client) use different port numbers.
 
 Once you've set up an HTTP server to listen to a specific port, the server waits for client requests coming to that specific port. After authenticating the client, the server performs any actions stated by the request, and sends any requested data via an HTTP response.
-<img src="images/server.png" width = "400">
+<img src="images/new_Server.png" width = "800">
 
 ### The Database
 
 Databases are the foundations of Web architecture. An SQL/NoSQL or a similar type of database is a place to store information so that it can easily be accessed, managed, and updated. If you're building a social media site, for example, you might use a database to store information about your users, posts, comments, etc. When a visitor requests a page, the data inserted into the page comes from the site's database, allowing the real-time user interactions sites like Facebook or apps like Gmail.
 
 
-![](images/cs2.png)
+<img src="images/new_CSModes.png" width="600">
 
 In the example image above, we can see the above-mentioned setup in action. A browser sends a request to a web server by calling its domain i.e. www.google.com. Based on who the requester is, the server collects necessary information for an SQL database. This information is wrapped as HTML code and sent back to the client. The web browser reads the structuring and styling information embedded within HTML and displays the page to the user accordingly. 
 
@@ -80,3 +80,8 @@ There is a lot of details on client/server architectures and how they manifest t
 ## Summary 
 
 In this lesson. we looked at the basics of client-server model and focused at the how this model is implemented for web-based applications. We looked at the role of web client, web servers and databases that carry client information. In the following lessons, we'll see how to implement these ideas using Python! 
+
+
+```python
+
+```
