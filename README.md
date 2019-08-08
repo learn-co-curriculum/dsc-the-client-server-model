@@ -76,13 +76,7 @@ There is a lot of details on client/server architectures and how they manifest t
 * [Introduction to Client Server Networks](https://www.lifewire.com/introduction-to-client-server-networks-817420)
 * [Client Server Model](https://www.researchgate.net/publication/271295146_Client-Server_Model)
 * [Web Application Architecture](https://spin.atomicobject.com/2015/04/06/web-app-client-side-server-side/)
-*
 
 ## Summary 
 
 In this lesson. we looked at the basics of client-server model and focused at the how this model is implemented for web-based applications. We looked at the role of web client, web servers and databases that carry client information. In the following lessons, we'll see how to implement these ideas using Python! 
-
-
-```python
-
-```
