@@ -8,7 +8,7 @@ In this lesson, we'll look at the relationship between clients and servers.  The
 ## Objectives
 You will be able to:
 
-* Understand and explain the relationship between clients and servers
+* Map the client server model process
 
 ## The Client Server Model 
 
