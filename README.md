@@ -79,4 +79,4 @@ There is a lot of details on client/server architectures and how they manifest t
 
 ## Summary 
 
-In this lesson. we looked at the basics of the client server model and focused on how this model is implemented for web-based applications. We looked at the role of web clients, web servers, and databases that carry client information. In the following lessons, we'll see how to implement these ideas using Python! 
+In this lesson, we looked at the basics of the client server model and focused on how this model is implemented for web-based applications. We looked at the role of web clients, web servers, and databases that carry client information. In the following lessons, we'll see how to implement these ideas using Python! 
