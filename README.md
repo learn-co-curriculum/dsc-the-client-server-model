@@ -1,4 +1,3 @@
-
 # The Client Server Model 
 
 ## Introduction
@@ -67,7 +66,7 @@ Databases are the foundations of Web architecture. An SQL/NoSQL or a similar typ
 
 <img src="images/new_CSModes.png" width="600">
 
-In the example image above, we can see the above-mentioned setup in action. A browser sends a request to a web server by calling its domain i.e. www.google.com. Based on who the requester is, the server collects necessary information for an SQL database. This information is wrapped as HTML code and sent back to the client. The web browser reads the structuring and styling information embedded within HTML and displays the page to the user accordingly. 
+In the example image above, we can see the above-mentioned setup in action. A browser sends a request to a web server by calling its domain i.e. www.google.com. Based on who the requester is, the server collects necessary information from a SQL database. This information is wrapped as HTML code and sent back to the client. The web browser reads the structuring and styling information embedded within HTML and displays the page to the user accordingly. 
 
 There is a lot of details on client/server architectures and how they manifest themselves on the Internet. We'll focus a bit more on the ideas highlighted in this section by setting up a client and making requests in Python. These skills will help us request data from the servers for our analytical experiments. here are some extra resources for you if you want to dig deeper into the client server model and how it is set up for many different architectures. 
 
