@@ -53,7 +53,7 @@ Most of these tasks are managed by HTML/CSS/JavaScript-like technologies to stru
 
 ### The Web Server
 
-A web server in a Web application is what listens to requests coming in from the clients. When you set up an HTTP (HyperText Transfer Protocol - Language of the internet) server, we set it up to listen to a port number. A port number is always associated with the IP address of a computer. You can think of ports as separate channels on a computer that we can use to perform different tasks: one port could be surfing www.facebook.com while another fetches your email. This is possible because each of the applications (the Web browser and the email client) use different port numbers.
+In a web application, client requests are received by a web server known as an **HTTP (Hypertext Transfer Protocol) server**. The HTTP server is able to receive client requests by listening to a port. Clients have multiple ports, so each port is identified using a port number that is always associated with the IP address of a computer. You can think of ports as separate channels on a computer that we can use to perform different tasks: one port could be surfing www.facebook.com while another fetches your email. This is possible because each application (the Web browser and the email client) uses different port numbers.
 
 Once you've set up an HTTP server to listen to a specific port, the server waits for client requests coming to that specific port. After authenticating the client, the server performs any actions stated by the request and sends any requested data via an HTTP response.
 
