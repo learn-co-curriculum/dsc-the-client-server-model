@@ -18,7 +18,7 @@ Although the client server model can be used by programs within an individual co
 A typical multi-layered client server architecture that most of us use in everyday life can be shown as below. 
 
 
-<img src="images/new_cs3.png" width="400">
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/new_cs3.png" width="400">
 
 ### What is a Client?
 A client is a computer hardware device or software that requests a service made available by a server. The server is often (but not always) located on a separate physical computer.
@@ -36,7 +36,7 @@ Let's see what a basic web application looks like that takes in a request from a
 
 A Web application (Web app) is an application program that is stored on a remote server and delivered over the Internet through a browser interface. Web services are Web apps by definition and many, although not all, websites contain Web apps. Any website component that performs some function for the user qualifies as a Web app. Google’s search engine is a web app, yet its root concept is hardly different from a phone directory that enables you to search for names or numbers. 
 
-<img src="images/new_apps.png" width="400">
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/new_apps.png" width="400">
 
 Most web apps actually use a browser interface for interaction, i.e. end users request access and request information/service from these applications through a modern web browser interface. There are hundreds of ways to build and configure a Web application but most of them follow the same basic structure: a web client, a web server, and a database.
 
@@ -49,7 +49,7 @@ The client is what the end user interacts with. "Client-side" code is actually r
 3.  Implementing a mechanism for responding to user interactions (clicking buttons, entering text, etc.)
 
 Most of these tasks are managed by HTML/CSS/JavaScript-like technologies to structure the information, style of the page and provide interactive objects for navigation and focus. 
-<img src="images/new_clientserver.png" width="400">
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/new_clientserver.png" width="400">
 
 ### The Web Server
 
@@ -57,14 +57,14 @@ A web server in a Web application is what listens to requests coming in from the
 
 Once you've set up an HTTP server to listen to a specific port, the server waits for client requests coming to that specific port. After authenticating the client, the server performs any actions stated by the request and sends any requested data via an HTTP response.
 
-<img src="./images/new_server.png" width = "800">
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/new_server.png" width = "800">
 
 ### The Database
 
 Databases are the foundations of Web architecture. An SQL/NoSQL or a similar type of database is a place to store information so that it can easily be accessed, managed, and updated. If you're building a social media site, for example, you might use a database to store information about your users, posts, comments, etc. When a visitor requests a page, the data inserted into the page comes from the site's database, allowing real-time user interactions with sites like Facebook or apps like Gmail.
 
 
-<img src="images/new_CSModes.png" width="600">
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/new_CSModes.png" width="600">
 
 In the example image above, we can see the above-mentioned setup in action. A browser sends a request to a web server by calling its domain i.e. www.google.com. Based on who the requester is, the server collects necessary information from a SQL database. This information is wrapped as HTML code and sent back to the client. The web browser reads the structuring and styling information embedded within HTML and displays the page to the user accordingly. 
 
